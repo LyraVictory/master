@@ -1,0 +1,201 @@
+html, body {
+	background: white;
+	font-family: 'Cagliostro', sans-serif;
+	color: #000;
+	margin: 0px;
+	padding: 7px;
+	overflow-x: hidden;
+}
+
+textarea {
+	font-size: 16px;
+}
+
+label {
+	font-size: 16px;
+}
+
+.fanficInner {
+	background: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h1 {
+	font-weight: 900;
+	text-align: center;
+	font-family: 'Berkshire Swash', sans-serif;
+}
+
+h2 {
+	font-weight: 700;
+	text-align: center;
+}
+
+h3 {
+	text-align: left;
+	font-size: 20;
+}
+
+p {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.header{
+	overflow: auto;
+	display: block;
+	clear:both;
+	background: #c69a71;
+}
+
+.inner{
+	width: 980px;
+	padding: 0px;
+	margin: 0px auto;
+	overflow: auto;
+	display: block;
+	background-color: #c69a71;
+}
+
+.logo {
+	float: left;
+	width: 150px;
+	position: absolute;
+	top: 0px;
+}
+.logo img{
+	width: 100%;
+}
+
+ul.menu {
+	list-style-type: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li {
+	float: left;
+	border-right: solid 1px #000;
+}
+
+ul.menu li  a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+	padding: 20px;
+	display: block;
+	border-bottom: solid 5px #000;
+}
+
+ul.menu li  a.selected {
+	background: #ef2828;
+	border-bottom: solid 5px #ef2828;
+}
+
+#gryffindor{
+	background: #933729;
+	margin-left: 15px
+}
+
+#gryffindor ul {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#ravenclaw{
+	background: #000A90;
+	margin-left: 15px;
+}
+
+#ravenclaw ul {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#hufflepuff{
+	background: #EEE117;
+	margin-left: 15px;
+}
+
+#hufflepuff ul {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#hermioneQuotes ul {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.content{
+	overflow: auto;
+	display: block;
+	margin: 0px auto;
+	clear:both;
+	background-color:#c69a71;
+}
+
+.content .inner {
+	background: #c69a71;
+	margin: 0px;
+	padding: 0px;
+}
+
+.video {
+	margin: 0px auto;
+	display: block;
+	width: 580px;
+	overflow: auto;
+	text-align: center;
+}
+
+ul.inline {
+	list-style-type: none;
+	text-align:center;
+	overflow: auto;
+	clear: both;
+}
+
+ul.inline li{
+	float: left;
+	margin: 0px 10px;
+
+}
+
+ul.inline li img {
+	height: 200px;
+	border-radius: 3px;
+}
+
+ul.inline li.cupcake img{
+	border-radius: 100px;
+	height: 100px;
+}
+
+ul.inline li.cupcake h4 {
+	margin: 5px 0px;
+}
+
+ul.inline li.cupcake h4.tiny {
+	margin: 5px 0px;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.footer .inner{
+	background: #cb87d1;
+}
+
+.footer ul {
+	list-style-type: disc;
+	float: right;
+	color: #fff;
+}
+
+.footer ul li a {
+	color: #fff;
+	text-decoration: none;
+}
