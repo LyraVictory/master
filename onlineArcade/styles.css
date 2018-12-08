@@ -1,0 +1,51 @@
+body {
+ background-color: #383641;  
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#title {
+    color: #F9D423;
+    font-size: 45px;
+    background-color: #FF4E50;
+    margin-right: 500px;
+    margin-left: 500px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+p {
+    padding: px
+}
+
+ul.inline {
+	list-style-type: none;
+	text-align:center;
+	/*overflow: auto;*/
+    clear: both;
+    display: inline-block;
+    
+}
+
+.gamePic {
+    width: 80px;
+    height: 60px;
+}
+
+ul.inline li{
+    float: left;
+    display: inline-block;
+    padding: 20px;
+}
+
+.inner {
+    background-color: whitesmoke;
+    margin: 25px;
+}
