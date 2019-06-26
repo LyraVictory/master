@@ -58,6 +58,11 @@ p {
 	background: #c69a71;
 }
 
+ul.menu li:hover {
+	background-color: #ddd;
+  color: black;
+}
+
 .inner{
 	width: 980px;
 	padding: 0px;
@@ -144,7 +149,7 @@ ul.menu li  a.selected {
 	font-weight: bold;
 }
 
-#hermioneQuotes ul {
+.charQuotes ul {
 	font-size: 14px;
 	font-weight: bold;
 }
