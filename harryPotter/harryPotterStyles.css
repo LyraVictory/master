@@ -23,11 +23,19 @@ label {
 
 ul .fanfictionList {
 	padding: 20px;
+	list-style-type: none;
+	text-align: center;
+    clear: both;
+    display: inline-block;
 }
 
 ul .fanfictionList2 {
-	align-content: center;
 	padding: 20px;
+	list-style-type: none;
+	text-align: center;
+	/*overflow: auto;*/
+    clear: both;
+    display: inline-block;
 }
 
 h1 {
