@@ -21,12 +21,18 @@ label {
 	margin-right: 20px;
 }
 
-ul .fanfictionList {
+ul.fanfictionList {
 	padding: 20px;
 	list-style-type: none;
 	text-align: center;
     clear: both;
     display: inline-block;
+}
+
+ul.fanfictionList ul {
+	float: left;
+    display: inline-block;
+    padding: 20px;
 }
 
 ul .fanfictionList2 {
