@@ -1,0 +1,48 @@
+html, body {
+    background-color: #171617;
+}
+
+body, h1, h2, h3 {
+	color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+ul.menu {
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li {
+	float: left;
+	border-right: solid 1px #999999;
+}
+
+ul.menu li  a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	padding: 20px;
+	display: block;
+	border-bottom: solid 5px #95aac4;
+}
+
+ul.menu li  a.selected {
+	background: #95aac4;
+	border-bottom: solid 5px #999999;
+}
+
+.menuDiv {
+    padding-bottom: 35px;
+}
+
+.audioFiles {
+	padding-top: 55px;
+}
