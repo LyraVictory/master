@@ -163,6 +163,10 @@ ul.menu li  a.selected {
 	font-weight: bold;
 }
 
+#search {
+	align-content: center;
+}
+
 .charQuotes ul {
 	font-size: 14px;
 	font-weight: bold;
