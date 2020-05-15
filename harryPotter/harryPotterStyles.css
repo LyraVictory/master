@@ -29,21 +29,6 @@ ul.fanfictionList {
     display: inline-block;
 }
 
-ul.fanfictionList ul {
-	float: left;
-    display: inline-block;
-    padding: 20px;
-}
-
-ul .fanfictionList2 {
-	padding: 20px;
-	list-style-type: none;
-	text-align: center;
-	/*overflow: auto;*/
-    clear: both;
-    display: inline-block;
-}
-
 h1 {
 	font-weight: 900;
 	text-align: center;
